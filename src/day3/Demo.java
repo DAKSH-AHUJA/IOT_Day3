@@ -4,7 +4,7 @@ public class Demo {
 	public static void main(String[] args) {
 		
 		try {
-			System.out.println(10 / 2); // wherever it catches an error in a line the next lines are not being executed directly it goes to catch block
+			System.out.println(10 / 2);//can be 0 // wherever it catches an error in a line the next lines are not being executed directly it goes to catch block
 			int[] a = {10,20,30};
 			System.out.println(a[0]);
 			System.out.println(a[1]);
