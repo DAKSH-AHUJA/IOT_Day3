@@ -17,6 +17,7 @@ public class Test {
 			int n = sc.nextInt();
 			validate(n);
 			System.out.println("rest of the code"); 
+			sc.close();
 		}
 }
 
